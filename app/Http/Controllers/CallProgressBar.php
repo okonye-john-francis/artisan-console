@@ -11,8 +11,8 @@ class CallProgressBar extends Controller
 
 		public function displayProgressBar(){
 
-				$progressBar = \Artisan::call('progressbar:start', [
-				       'duration' => 10
+				$progressBar = \Artisan::call('email:send', [
+				       'user' => 'Donuld Trump'
 				   ]);
 
 				//dd($progressBar);
